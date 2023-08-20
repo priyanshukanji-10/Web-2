@@ -7,10 +7,12 @@
 }
 a {
   text-decoration: none;
-  color: black;
+  color: unset;
 }
 .nav-obj {
   display: inline-block;
+  font-size: 1.3rem;
+  font-weight: 600;
 }
 .Navbar {
   display: flex;
@@ -18,20 +20,57 @@ a {
   align-items: center;
   height: 100px;
   width: 100%;
+  background-color: #ebb3a9;
+  box-shadow: white 200px;
 }
-#button-container{
-    position: absolute;
-    right: 0;
-    margin-right: 30px;
+.Navbar i {
+  height: 20px;
+  width: 20px;
 }
-#button-container button{
-width: 70px;
-height: 50px;
-font-size: 1.2rem;
-font-weight: 700;
-background-color: cadetblue;
+.buttons {
+  background-color: #e86252;
+  height: 35px;
+  width: 100px;
+  border-radius: 10%;
 }
-.Navbar i{
-    height: 20px;
-    width: 20px;
+.nav-obj:hover {
+  border: 2px solid #7c0b2b;
+  text-decoration: underline
+}
+.buttons:active {
+  background-color: red;
+  color: black;
+}
+.pages-link {
+  color: #0d3b66;
+}
+.pages-link:active {
+  color: red;
+}
+.intro-container {
+  background-image: url(https://www.theedublogger.com/files/2019/03/10-Minute-Weekly-Blogging-Plan-tasqn3-prizg4-1080x720.jpeg);
+  height: 720px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.intro {
+  height: 400px;
+  width: 70%;
+  font-size: 1.9rem;
+  color: rgb(133, 2, 23);
+}
+.Contact label{
+  display: block;
+}
+.Contact{
+  width: 100%;
+  height: 70px;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.842);
+  color: aliceblue;
 }
