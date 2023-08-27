@@ -2,7 +2,7 @@
   font-family: sans-serif;
 }
 .logo-image {
-  background-image: url(https://github.com/priyanshukanji-10/Web-2/blob/0c250775ec8581553f482aac82f16fa20173788e/images/Logo.png);
+  background-image: url(../images/Logo.png);
   background-size: cover;
   height: 65px;
   width: 65px;
@@ -90,7 +90,7 @@ a {
   width: 500px;
   height: 350px;
   background-color: aliceblue;
-  border-radius: 5%;
+  border-radius: 3%;
 }
 .Forms {
   width: 300px;
@@ -110,4 +110,9 @@ a {
 }
 .box-container:hover {
   border: 2px solid #e86252;
+}
+.hed-description a {
+  color: blue;
+  font-size: 0.8rem;
+  font-weight: 600;
 }
