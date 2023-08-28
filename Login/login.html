@@ -38,40 +38,38 @@
       <div class="box-container">
         <p id="heading">Log in</p>
         <p class="hed-description">Stay Updated with Daily Blogs!</p>
-        <div class="form-container">
+        <div id="form-container">
+          <form method="post" action="/login">
           <input
-            class="Forms"
-            type="email"
-            for="username"
-            placeholder="Enter your email"
+          id="email"
+          class="Forms"
+          type="email"
+          placeholder="Enter your email"
           />
           <input
-            class="Forms"
-            type="password"
-            for="Password"
-            placeholder="Enter Password"
-          />
-          <input class="login-button" type="button" value="Login" />
-          <p class="hed-description">
-            New to Blogs Now? <a href="../Signup/signup.html">Join now!</a>
-          </p>
+          id="password"
+          class="Forms"
+          type="password"
+          placeholder="Enter your password">
+          <button class="login-button" type="submit">Login</button>
+          </form>
+         <p class="hed-description">New to BlogsNow? <a href="../Signup/signup.html">Join Now!</a></p>
         </div>
       </div>
     </div>
   </div>
   <footer>
     <div class="Contact">
-      <label for="Contact">Contact Us</label>
-      <a class="nav-obj" href="#"
-        ><i class="fa-brands fa-facebook" style="color: #2b3a54"></i
-        >Facebook</a
+<h2>Contact Us</h2>     
+        <a class="nav-obj" target="_main" href="https://www.linkedin.com/in/priyanshu-kanji-b5435a27b/"
+  ><i class="fa-brands fa-linkedin"></i>Linkedin</a
+>
+      <a class="nav-obj" href="https://github.com/priyanshukanji-10"
+        ><i class="fa-brands fa-github"></i>Github</a
       >
-      <a class="nav-obj" href="#"
+      <a class="nav-obj" href="https://www.instagram.com/priyanshu_lens_10/"
         ><i class="fa-brands fa-instagram" style="color: #f72665"></i
         >Instagram</a
-      >
-      <a class="nav-obj" href="#"
-        ><i class="fa-brands fa-linkedin"></i>Linkedin</a
       >
     </div>
   </footer>

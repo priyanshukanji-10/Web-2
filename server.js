@@ -1,7 +1,6 @@
 const express = require('express')
 const app = express()
 const bcrypt = require('bcrypt')
-
 app.use(express.json())
 
 const users = []
@@ -36,5 +35,8 @@ app.post('/users/login', async (req, res) => {
       res.status(500).send()
     }
   })
+  app.get('/',(req,res)=>{
+    res.render('index')
+  })
   
-  app.listen(4000)
+  app.listen(5000)
