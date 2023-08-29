@@ -40,33 +40,43 @@
           <div class="form-container">
             <form action="/signup" method="post">
             <input
+            id="Name"
               class="Forms"
               type="text"
               for="Name"
               placeholder="Enter your Name"
+              required
             />
             <input 
+            id="DOB"
             type="date" 
             name="Date of Birth" 
             class="Forms"
+            required
             />
             <input
+            id="email"
               class="Forms"
               type="email"
               for="username"
               placeholder="Enter your email"
+              required
             />
             <input
+            id="password"
               class="Forms"
               type="password"
               for="Password"
               placeholder="Create Password"
+              required
             />
             <input
+            id="rePassword"
               class="Forms"
               type="password"
               for="Password"
               placeholder="Re-enter created Password"
+              required
             />
             <button class="login-button" type="submit">Signup</button>
           </form>
